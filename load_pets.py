@@ -1,5 +1,4 @@
 import sqlite3 as lite 
-import sys
 
 people = (
     (1, 'James', 'Smith', 41),
