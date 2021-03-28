@@ -15,4 +15,4 @@ CREATE TABLE songs (
     song_title TEXT,
     song_num INTEGER,
     song_length INTEGER
-)
+);
