@@ -7,8 +7,9 @@ def prYellow(skk): print("\033[93m {}\033[00m" .format(skk))
 if __name__ == '__main__':
 
     while True:
-
-        user_input = input(f'Provide an id --> ')
+        print('')
+        user_input = input(f'Provide an id or enter -1 to exit. --> ')
+        print('')
 
         try:
 
@@ -43,7 +44,7 @@ if __name__ == '__main__':
 
         except TypeError:
             if int(user_input) == -1:
-                sys.exit('Exiting program')
+                sys.exit(prYellow('Exiting program'))
             else:
                 prYellow('This person doesn\'t exist.')
 
